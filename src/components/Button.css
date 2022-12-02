@@ -1,0 +1,15 @@
+.heart {
+    visibility:hidden;
+    font-size:30px;
+    cursor:pointer;
+    margin-bottom: 2rem;
+}
+.heart:before {
+   content: "\1F493";
+   position: absolute;
+   visibility:visible;
+}
+.heart:checked:before {
+   content: "\1F494";
+   position: absolute;
+}
